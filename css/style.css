@@ -57,6 +57,11 @@ button {
     text-decoration: none !important;
     outline: none !important;
 }
+.form-control:focus {
+	border-color: #5ac24e;
+	outline: 0;
+	box-shadow: none;
+}
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
