@@ -522,9 +522,9 @@ a.btn_outline_cv {
     -webkit-box-shadow: rgba(58,78,95,0.2) 0 10px 16px, rgba(58,78,95,0.05) 0 -5px 16px;
     box-shadow: rgba(58,78,95,0.2) 0 10px 16px, rgba(58,78,95,0.05) 0 -5px 16px;
     margin-bottom: 15px;
-    -webkit-border-radius:10px;
-    -moz-border-radius:10px;
-    border-radius:10px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
 }
 .single-services:hover {
     -webkit-box-shadow: 1px 3px 4px 5px rgba(199,199,199,.8);
