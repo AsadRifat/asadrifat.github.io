@@ -10,12 +10,7 @@ $(function() {
 	$(form).submit(function(e) {
 		// Stop the browser from submitting the form.
 		e.preventDefault();
-
-		 var $form = $(this);
-  			$.post($form.attr("action"), $form.serialize()).then(function() {
-	  	 		 alert("Thank you!");
-	 		 });
-			});
+		
 		// Serialize the form data.
 		var formData = $(form).serialize();
 
